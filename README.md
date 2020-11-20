@@ -1,5 +1,7 @@
 # Cam2Ndk
-For Machine learning or images processing (`OpenCV`) applications on Android, it's often divided into two planes: part of it in Java and other part in `c++`(using NDK). There are various **Good** reasons that such applications should be implemented in native code(`c++` planes alone). With NDK Camera 2 APIs released as part of Android 7(`API version 24`) it has become a blessing for developers and delight for C/C++ lovers.
+For Machine learning or images processing (`OpenCV`) applications on Android, it's often divided into two planes: part of it in JAVA and other part in `c++`(using NDK). There are various **Good** reasons that such applications should be implemented in native code(`c++` planes alone). With NDK Camera 2 APIs released as part of Android 7(`API version 24`) it has become a blessing for developers and delight for C/C++ lovers.
+
+Example: image processing can be done much efficiently using OpenCV compared to what is available at JAVA plane ( getPixel()/setPixel(), Glide Image Transformation, ColorMatrix, Renderscript )
 
 There are two parts to this repo:
 1. **ndk_so:** Its a standalone `c++` code for camera control and there is no need to use Android Studio (c++ folks would surely love it), just build it from the command line. For this you need to download the version of NDK (cross compilation toolchain for android devices) you need (anything above `API version 24`) and set the appropriate path in the `Makefile`. Or if you already have NDK installed using Android Studio? It must be somewhere here -> `~/Library/Android/sdk/ndk/21.2.6472646` (on my macbook). 
