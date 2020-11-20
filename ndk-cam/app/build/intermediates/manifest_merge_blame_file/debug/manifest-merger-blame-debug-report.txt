@@ -1,0 +1,62 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ndkcamlibs"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->/Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:7:1-61
+11-->/Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:7:18-58
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:8:1-77
+12-->/Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:8:18-74
+13
+14    <uses-feature android:name="android.hardware.camera" />
+14-->/Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:10:1-56
+14-->/Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:10:15-53
+15    <uses-feature android:name="android.hardware.camera.autofocus" />
+15-->/Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:11:1-66
+15-->/Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:11:15-63
+16
+17    <application
+17-->/Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:13:1-28:15
+18        android:allowBackup="false"
+18-->/Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:14:5-32
+19        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+19-->[com.android.support:support-compat:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/ccbd3881d3e597a650ace942161206f5/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+20        android:configChanges="keyboardHidden|orientation|screenSize"
+20-->/Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:18:5-66
+21        android:debuggable="true"
+22        android:icon="@drawable/ic_launcher"
+22-->/Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:15:5-41
+23        android:label="ndkcam"
+23-->/Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:16:5-27
+24        android:screenOrientation="portrait"
+24-->/Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:17:5-41
+25        android:testOnly="true" >
+26        <activity
+26-->/Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:19:5-27:16
+27            android:name="com.example.ndkcamlibs.MainActivity"
+27-->/Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:20:9-59
+28            android:label="ndkcam" >
+28-->/Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:21:9-31
+29            <intent-filter>
+29-->/Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:22:9-26:25
+30                <action android:name="android.intent.action.MAIN" />
+30-->/Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:23:13-65
+30-->/Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:23:21-62
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:25:13-73
+32-->/Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:25:23-70
+33            </intent-filter>
+34        </activity>
+35    </application>
+36
+37</manifest>

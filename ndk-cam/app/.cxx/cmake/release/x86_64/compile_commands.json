@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/milinddeore/AndroidStudioProjects/hello-libs/app/.cxx/cmake/release/x86_64",
+  "command": "/Users/milinddeore/Library/Android/sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/milinddeore/Library/Android/sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/milinddeore/Library/Android/sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dhello_libs_EXPORTS -I/Users/milinddeore/AndroidStudioProjects/hello-libs/app/src/main/cpp/../../../../distribution/gmath/include -I/Users/milinddeore/AndroidStudioProjects/hello-libs/app/src/main/cpp/../../../../distribution/gperf/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=gnu++11 -O2 -DNDEBUG  -fPIC   -o CMakeFiles/hello-libs.dir/hello-libs.cpp.o -c /Users/milinddeore/AndroidStudioProjects/hello-libs/app/src/main/cpp/hello-libs.cpp",
+  "file": "/Users/milinddeore/AndroidStudioProjects/hello-libs/app/src/main/cpp/hello-libs.cpp"
+}
+]

@@ -1,0 +1,165 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:2:1-30:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/0c91d46fdd28334f30b1556655513aca/appcompat-v7-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/c88c593eadb3214baf9beaf10235fc22/support-fragment-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/19441647dde82811e0f8850f322a3735/animated-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/4befd111260781b0887d9350daa1408f/support-core-ui-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/b71e3287f1352736da0fec142f5211bc/support-core-utils-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/1562b3719554fa4903e28dcd9508f1e8/support-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/1960372ea23d13d4be6b794726d2c6fe/loader-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/79c2c073fb018aa76bf35cb91e185267/viewpager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/02032d4eab5e547a1b10f7e2cc64a621/coordinatorlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/c18f1110e437299982044281d0c4793e/drawerlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/93c727039c2c74ecaba4a69e6b45f348/slidingpanelayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/405a1595a62182966429e903f61cf49f/customview-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/260c840e37b370d2335ed59b13f58d79/swiperefreshlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/3eeba095a054eadfbf9f84a901c648d9/asynclayoutinflater-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/ccbd3881d3e597a650ace942161206f5/support-compat-28.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/c974b53ff623607867e85f86170dbc65/versionedparcelable-28.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/8ea6ac34f223929050e42d0d41b55557/cursoradapter-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/97d9e80cc06bd1716c9a1c83dcdf0e1a/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/4008b816f163fba5a2697c0a5560c682/documentfile-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/e3c4d05a27bf4f4552df5090537133ea/localbroadcastmanager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/326b07dc58f3196235573cd7c3eaefad/print-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/0bff491a10253e576df70f25d663fdb9/viewmodel-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/6920a4ecf0c2443f01cbd9424474ed41/livedata-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/aa31b21d37fa785af8be2696040c0070/livedata-core-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/3cdd09ad7aea26e45644d6466a6ff4d1/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/7312172b974aad26593142162affd51c/interpolator-28.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:3:1-33
+		INJECTED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:5:1-26
+		INJECTED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:4:1-24
+		INJECTED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:7:1-61
+	android:name
+		ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:7:18-58
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:8:1-77
+	android:name
+		ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:8:18-74
+uses-feature#android.hardware.camera
+ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:10:1-56
+	android:name
+		ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:10:15-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:11:1-66
+	android:name
+		ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:11:15-63
+application
+ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:13:1-28:15
+MERGED from [com.android.support:support-compat:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/ccbd3881d3e597a650ace942161206f5/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/ccbd3881d3e597a650ace942161206f5/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/c974b53ff623607867e85f86170dbc65/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/c974b53ff623607867e85f86170dbc65/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+	android:screenOrientation
+		ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:17:5-41
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/ccbd3881d3e597a650ace942161206f5/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:16:5-27
+	android:configChanges
+		ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:18:5-66
+	android:icon
+		ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:15:5-41
+	android:allowBackup
+		ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:14:5-32
+activity#com.example.ndkcamlibs.MainActivity
+ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:19:5-27:16
+	android:label
+		ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:21:9-31
+	android:name
+		ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:20:9-59
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:22:9-26:25
+action#android.intent.action.MAIN
+ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:23:13-65
+	android:name
+		ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:23:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:25:13-73
+	android:name
+		ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml:25:23-70
+uses-sdk
+INJECTED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml
+INJECTED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/0c91d46fdd28334f30b1556655513aca/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/0c91d46fdd28334f30b1556655513aca/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/c88c593eadb3214baf9beaf10235fc22/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/c88c593eadb3214baf9beaf10235fc22/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/19441647dde82811e0f8850f322a3735/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/19441647dde82811e0f8850f322a3735/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/4befd111260781b0887d9350daa1408f/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/4befd111260781b0887d9350daa1408f/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/b71e3287f1352736da0fec142f5211bc/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/b71e3287f1352736da0fec142f5211bc/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/1562b3719554fa4903e28dcd9508f1e8/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/1562b3719554fa4903e28dcd9508f1e8/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/1960372ea23d13d4be6b794726d2c6fe/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/1960372ea23d13d4be6b794726d2c6fe/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/79c2c073fb018aa76bf35cb91e185267/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/79c2c073fb018aa76bf35cb91e185267/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/02032d4eab5e547a1b10f7e2cc64a621/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/02032d4eab5e547a1b10f7e2cc64a621/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/c18f1110e437299982044281d0c4793e/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/c18f1110e437299982044281d0c4793e/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/93c727039c2c74ecaba4a69e6b45f348/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/93c727039c2c74ecaba4a69e6b45f348/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/405a1595a62182966429e903f61cf49f/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/405a1595a62182966429e903f61cf49f/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/260c840e37b370d2335ed59b13f58d79/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/260c840e37b370d2335ed59b13f58d79/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/3eeba095a054eadfbf9f84a901c648d9/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/3eeba095a054eadfbf9f84a901c648d9/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/ccbd3881d3e597a650ace942161206f5/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/ccbd3881d3e597a650ace942161206f5/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/c974b53ff623607867e85f86170dbc65/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/c974b53ff623607867e85f86170dbc65/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/8ea6ac34f223929050e42d0d41b55557/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/8ea6ac34f223929050e42d0d41b55557/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/97d9e80cc06bd1716c9a1c83dcdf0e1a/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/97d9e80cc06bd1716c9a1c83dcdf0e1a/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/4008b816f163fba5a2697c0a5560c682/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/4008b816f163fba5a2697c0a5560c682/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/e3c4d05a27bf4f4552df5090537133ea/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/e3c4d05a27bf4f4552df5090537133ea/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/326b07dc58f3196235573cd7c3eaefad/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/326b07dc58f3196235573cd7c3eaefad/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/0bff491a10253e576df70f25d663fdb9/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/0bff491a10253e576df70f25d663fdb9/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/6920a4ecf0c2443f01cbd9424474ed41/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/6920a4ecf0c2443f01cbd9424474ed41/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/aa31b21d37fa785af8be2696040c0070/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/aa31b21d37fa785af8be2696040c0070/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/3cdd09ad7aea26e45644d6466a6ff4d1/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/3cdd09ad7aea26e45644d6466a6ff4d1/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/7312172b974aad26593142162affd51c/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/milinddeore/.gradle/caches/transforms-2/files-2.1/7312172b974aad26593142162affd51c/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml
+INJECTED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml
+		ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml
+		ADDED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/milinddeore/AndroidStudioProjects/ndk-cam/app/src/main/AndroidManifest.xml

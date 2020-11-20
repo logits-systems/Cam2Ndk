@@ -1,0 +1,46 @@
+{
+  "stringTable": {
+    "0": "/Users/milinddeore/AndroidStudioProjects/hello-libs/app/.cxx/cmake/debug/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/milinddeore/Library/Android/sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/milinddeore/Library/Android/sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dhello_libs_EXPORTS -I/Users/milinddeore/AndroidStudioProjects/hello-libs/app/src/main/cpp/../../../../distribution/gmath/include -I/Users/milinddeore/AndroidStudioProjects/hello-libs/app/src/main/cpp/../../../../distribution/gperf/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -std=gnu++11 -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/Users/milinddeore/Library/Android/sdk/ndk/21.2.6472646/build/cmake/android.toolchain.cmake",
+    "/Users/milinddeore/AndroidStudioProjects/hello-libs/app/src/main/cpp/CMakeLists.txt",
+    "/Users/milinddeore/Library/Android/sdk/ndk/21.2.6472646/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/milinddeore/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/milinddeore/AndroidStudioProjects/hello-libs/app/.cxx/cmake/debug/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/milinddeore/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/milinddeore/AndroidStudioProjects/hello-libs/app/.cxx/cmake/debug/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "hello-libs-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/milinddeore/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/milinddeore/AndroidStudioProjects/hello-libs/app/.cxx/cmake/debug/armeabi-v7a\" hello-libs",
+      "buildType": "debug",
+      "toolchain": "367581877",
+      "abi": "armeabi-v7a",
+      "artifactName": "hello-libs",
+      "files": [
+        {
+          "src": "/Users/milinddeore/AndroidStudioProjects/hello-libs/app/src/main/cpp/hello-libs.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/milinddeore/AndroidStudioProjects/hello-libs/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-libs.so",
+      "runtimeFiles": [
+        "/Users/milinddeore/AndroidStudioProjects/hello-libs/app/src/main/cpp/../../../../distribution/gmath/lib/armeabi-v7a/libgmath.a",
+        "/Users/milinddeore/AndroidStudioProjects/hello-libs/app/src/main/cpp/../../../../distribution/gperf/lib/armeabi-v7a/libgperf.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "367581877": {
+      "cppCompilerExecutable": "/Users/milinddeore/Library/Android/sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

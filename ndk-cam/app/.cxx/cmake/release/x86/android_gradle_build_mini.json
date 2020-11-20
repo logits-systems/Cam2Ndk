@@ -1,0 +1,23 @@
+{
+  "buildFiles": [
+    "/Users/milinddeore/Library/Android/sdk/ndk/21.2.6472646/build/cmake/android.toolchain.cmake",
+    "/Users/milinddeore/AndroidStudioProjects/hello-libs/app/src/main/cpp/CMakeLists.txt",
+    "/Users/milinddeore/Library/Android/sdk/ndk/21.2.6472646/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/milinddeore/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/milinddeore/AndroidStudioProjects/hello-libs/app/.cxx/cmake/release/x86\" clean"
+  ],
+  "buildTargetsCommand": "/Users/milinddeore/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/milinddeore/AndroidStudioProjects/hello-libs/app/.cxx/cmake/release/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "hello-libs-Release-x86": {
+      "artifactName": "hello-libs",
+      "buildCommand": "/Users/milinddeore/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/milinddeore/AndroidStudioProjects/hello-libs/app/.cxx/cmake/release/x86\" hello-libs",
+      "abi": "x86",
+      "output": "/Users/milinddeore/AndroidStudioProjects/hello-libs/app/build/intermediates/cmake/release/obj/x86/libhello-libs.so",
+      "runtimeFiles": [
+        "/Users/milinddeore/AndroidStudioProjects/hello-libs/app/src/main/cpp/../../../../distribution/gmath/lib/x86/libgmath.a",
+        "/Users/milinddeore/AndroidStudioProjects/hello-libs/app/src/main/cpp/../../../../distribution/gperf/lib/x86/libgperf.so"
+      ]
+    }
+  }
+}

@@ -1,0 +1,3 @@
+/Users/milinddeore/AndroidStudioProjects/hello-libs/app/.cxx/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir
+/Users/milinddeore/AndroidStudioProjects/hello-libs/app/.cxx/cmake/release/x86_64/CMakeFiles/edit_cache.dir
+/Users/milinddeore/AndroidStudioProjects/hello-libs/app/.cxx/cmake/release/x86_64/CMakeFiles/hello-libs.dir

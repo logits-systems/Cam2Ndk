@@ -1,0 +1,3 @@
+ninja: Entering directory `/Users/milinddeore/AndroidStudioProjects/hello-libs/app/.cxx/cmake/debug/x86_64'
+[1/2] Building CXX object CMakeFiles/hello-libs.dir/hello-libs.cpp.o
+[2/2] Linking CXX shared library /Users/milinddeore/AndroidStudioProjects/hello-libs/app/build/intermediates/cmake/debug/obj/x86_64/libhello-libs.so
