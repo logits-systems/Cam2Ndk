@@ -27,6 +27,9 @@
 #include "native_debug.h"
 #include <thread>
 
+//#include "opencv2/core.hpp"
+#include "opencv2/imgproc.hpp"
+
 enum class CaptureSessionState : int32_t {
   READY = 0,  // session is ready
   ACTIVE,     // session is busy
@@ -145,21 +148,45 @@ class NDKCamera {
 
   static void imageCallback(void* context, AImageReader* reader)
   {
-     AImage *image = nullptr;
-     auto status = AImageReader_acquireNextImage(reader, &image);
+     AImage *yuv_image = nullptr;
+     auto status = AImageReader_acquireNextImage(reader, &yuv_image);
      LOGI("[File]%s [Func]%s [Line]%d", __FILE__, __FUNCTION__, __LINE__);
      // Check status here ...
 
 
      // Try to process data without blocking the callback
      std::thread processor([=](){
-         // THROW AWAY CODE
          LOGD("<---------- Image processing loop ... --------->");
-         uint8_t *data = nullptr;
-         int len = 0;
-         AImage_getPlaneData(image, 0, &data, &len);
-         AImage_delete(image);
-         // THROW AWAY CODE
+         uint8_t *yPixel = nullptr;
+         uint8_t *uPixel = nullptr;
+         uint8_t *vPixel = nullptr;
+
+         int32_t yLen = 0;
+         int32_t uLen = 0;
+         int32_t vLen = 0;
+
+         cv::Mat _yuv_rgb_img, _yuv_gray_img;
+
+         AImage_getPlaneData(yuv_image, 0, &yPixel, &yLen);
+         AImage_getPlaneData(yuv_image, 1, &uPixel, &uLen);
+         AImage_getPlaneData(yuv_image, 2, &vPixel, &vLen);
+
+         uint8_t * data = new uint8_t[yLen + vLen + uLen];
+         memcpy(data, yPixel, yLen);
+         memcpy(data+yLen, vPixel, vLen);
+         memcpy(data+yLen+vLen, uPixel, uLen);
+
+         cv::Mat mYUV = cv::Mat(1280 * 1.5, 720, CV_8UC1, data);
+
+         cv::cvtColor(mYUV, _yuv_rgb_img, CV_YUV2RGB_NV21, 3);
+
+         cv::rotate(_yuv_rgb_img, _yuv_rgb_img, cv::ROTATE_90_CLOCKWISE);
+      
+         //gray image only use plane Y
+         _yuv_gray_img = cv::Mat(1280, 720, CV_8UC1, yPixel);
+         cv::rotate(_yuv_gray_img, _yuv_gray_img, cv::ROTATE_90_CLOCKWISE); 
+
+         AImage_delete(yuv_image);
       });
       processor.detach();
   }
