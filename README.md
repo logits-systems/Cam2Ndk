@@ -19,4 +19,4 @@ There is a callback function `imageCallback` inside the object `NDKCamera`, it g
 To know what is NDK and how to install it, please follow the [article](https://medium.com/@tomdeore/opencv-on-android-tiny-with-optimization-enabled-932460acfe38), for us **Step-1** is only required. 
 
 # OpenCV Integration:
-I have integrated OpenCV version 3.4.3, What you need to do is to fetch the OpenCV Android SDK and set the appropriate path for Andoird header files (using `-I`) and staticlibs (using `-L` and `-l`) in the `Makefile`.   
+I have integrated OpenCV version 3.4.3, What you need to do is to fetch the OpenCV Android SDK and set the appropriate path for Andoird header files (using `-I`) and staticlibs (using `-L` and `-l`) in the `Makefile`. In case you need strip down version of OpenCV and not all the modules of OpenCV check out my [blog](https://mdeore.medium.com/opencv-on-android-tiny-with-optimization-enabled-932460acfe38). Mind you, you cannot just pick static `.a` libray from OpenCV, check this [thread](https://github.com/opencv/opencv/issues/14825)
