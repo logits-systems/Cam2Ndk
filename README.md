@@ -20,3 +20,16 @@ To know what is NDK and how to install it, please follow the [article](https://m
 
 # OpenCV Integration:
 I have integrated OpenCV version 3.4.3, What you need to do is to fetch the OpenCV Android SDK and set the appropriate path for Andoird header files (using `-I`) and staticlibs (using `-L` and `-l`) in the `Makefile`. In case you need strip down version of OpenCV and not all the modules of OpenCV check out my [blog](https://mdeore.medium.com/opencv-on-android-tiny-with-optimization-enabled-932460acfe38). Mind you, you cannot just pick static `.a` libray from OpenCV, check this [thread](https://github.com/opencv/opencv/issues/14825)
+
+# TFLite (.so) for Android:
+Check this [tensorflow documentation](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/guide/android.md) for details as to how to build standalone `.so` for C++ project. Often TF documentation is broken due to changes, the command to create `libtensorflowlite.so` is as:
+
+32bit armeabi-v7a:
+```
+bazel build -c opt --config=android_arm //tensorflow/lite:libtensorflowlite.so
+```
+64bit arm64-v8a:
+```
+bazel build -c opt --config=android_arm64 //tensorflow/lite:libtensorflowlite.so
+```
+Currently, there is no straightforward way to extract all header files needed, so you must include all header files in tensorflow/lite/ from the TensorFlow repository. Additionally, you will need header files from FlatBuffers and Abseil.
