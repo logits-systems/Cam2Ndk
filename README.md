@@ -26,10 +26,12 @@ Check this [tensorflow documentation](https://github.com/tensorflow/tensorflow/b
 
 32bit armeabi-v7a:
 ```
-bazel build -c opt --config=android_arm //tensorflow/lite:libtensorflowlite.so
+bazel build -c opt --config=monolithic --config=android_arm //tensorflow/lite:libtensorflowlite.so
 ```
 64bit arm64-v8a:
 ```
-bazel build -c opt --config=android_arm64 //tensorflow/lite:libtensorflowlite.so
+bazel build -c opt --config=monolithic --config=android_arm64 //tensorflow/lite:libtensorflowlite.so
 ```
 Currently, there is no straightforward way to extract all header files needed, so you must include all header files in tensorflow/lite/ from the TensorFlow repository. Additionally, you will need header files from FlatBuffers and Abseil.
+
+## NOTE: `--config=monolithic` is important to mention while building the shared object, else all the dependencies won't get bundled together. 
