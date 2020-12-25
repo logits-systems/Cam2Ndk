@@ -24,6 +24,15 @@ I have integrated OpenCV version 3.4.3, What you need to do is to fetch the Open
 # TFLite (.so) for Android:
 Check this [tensorflow documentation](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/guide/android.md) for details as to how to build standalone `.so` for C++ project. Often TF documentation is broken due to changes, the command to create `libtensorflowlite.so` is as:
 
+Run `./configure` to configure tensorflow WORKSPACE, set it as follows or appropriate: 
+```
+ANDROID_NDK_HOME=/Users/milinddeore/library/Android/sdk/ndk/21.2.6472646/ 
+ANDROID_NDK_API_LEVEL=21
+ANDROID_BUILD_TOOLS_VERSION=29.0.2 
+ANDROID_SDK_API_LEVEL=29
+ANDROID_SDK_HOME=/Users/milinddeore/library/Android/sdk/
+```
+
 32bit armeabi-v7a:
 ```
 bazel build -c opt --config=monolithic --config=android_arm //tensorflow/lite:libtensorflowlite.so
