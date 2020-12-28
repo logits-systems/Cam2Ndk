@@ -43,4 +43,4 @@ bazel build -c opt --config=monolithic --config=android_arm64 //tensorflow/lite:
 ```
 Currently, there is no straightforward way to extract all header files needed, so you must include all header files in tensorflow/lite/ from the TensorFlow repository. Additionally, you will need header files from FlatBuffers and Abseil.
 
-### NOTE: `--config=monolithic` is important to mention while building the shared object, else all the dependencies won't get bundled together. 
+### NOTE: only copy the `.h` files from `tensorflow/lite/` folder for compilation and not all the files. 
