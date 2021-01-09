@@ -26,8 +26,8 @@ Check this [tensorflow documentation](https://github.com/tensorflow/tensorflow/b
 
 Run `./configure` to configure tensorflow WORKSPACE, set it as follows or appropriate: 
 ```
-ANDROID_NDK_HOME=/Users/milinddeore/library/Android/sdk/ndk/21.2.6472646/ 
-ANDROID_NDK_API_LEVEL=21
+ANDROID_NDK_HOME=/Users/milinddeore/android-ndk-r14b
+ANDROID_NDK_API_LEVEL=24
 ANDROID_BUILD_TOOLS_VERSION=29.0.2 
 ANDROID_SDK_API_LEVEL=29
 ANDROID_SDK_HOME=/Users/milinddeore/library/Android/sdk/
@@ -35,11 +35,11 @@ ANDROID_SDK_HOME=/Users/milinddeore/library/Android/sdk/
 
 32bit armeabi-v7a:
 ```
-bazel build -c opt --config=monolithic --config=android_arm //tensorflow/lite:libtensorflowlite.so
+bazel build -c opt --cxxopt='--std=c++11' --config=monolithic --config=android_arm //tensorflow/lite:libtensorflowlite.so
 ```
 64bit arm64-v8a:
 ```
-bazel build -c opt --config=monolithic --config=android_arm64 //tensorflow/lite:libtensorflowlite.so
+bazel build -c opt --cxxopt='--std=c++11' --config=monolithic --config=android_arm64 //tensorflow/lite:libtensorflowlite.so
 ```
 Currently, there is no straightforward way to extract all header files needed, so you must include all header files in tensorflow/lite/ from the TensorFlow repository. Additionally, you will need header files from FlatBuffers and Abseil.
 
